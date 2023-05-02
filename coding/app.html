@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Cemetery Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Cemetery</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="welcome">
+        <h2>Welcome </h2>
+        <img src="garden.jpg" alt="404" width="300" height="200">
+
+        <p>We are a full-service cemetery, dedicated to providing our clients with dignified and compassionate care.</p>
+        <a href="#" class="button">Learn More</a>
+      </section>
+      <section id="Search">
+        <h2>Search</h2>
+        <form id="search-form">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter location">
+      
+            <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product-name" placeholder="Enter product name ...">
+      
+            <button type="submit">Search</button>
+        </form>
+        <div id="search-results"></div>
+      </section>
+      
+      
+
+      <section id="Featured products">
+        <h2>Featured Products</h2>
+        <ul>
+            <li>
+                <h3>Featured product 1</h3>
+                <p>Description of the product 1</p>
+                <p>Location : Cemetery A, Section 1,Row 2, Plot 3</p>
+                <a href ="#" class="button">Learn More</a>
+            </li>
+                <h3>Product 2</h3>
+                <p>Description of Product 2</p>
+                <p>Location: Cemetery B, Section 3, Row 4, Plot 2</p>
+                <a href="#" class="button">More Info</a>
+            </li>
+             <li>
+                <h3>Product 3</h3>
+                <p>Description of Product 3</p>
+                <p>Location: Cemetery C, Section 2, Row 1, Plot 1</p>
+                <a href="#" class="button">More Info</a>
+            </li>        
+        </ul>
+        </section>
+        
+      <section id="about">
+        <h2>About Us</h2>
+        <p>We have been serving the community for over 50 years, and our experienced staff is committed to providing exceptional service to every family we serve.</p>
+      </section>
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Burial Services</li>
+          <li>Cremation Services</li>
+          <li>Memorialization</li>
+          <li>Pre-Planning Services</li>
+        </ul>
+      </section>
+      <section id="pricing">
+        <h2>Our Pricing</h2>
+        <p>We offer a range of affordable pricing options to meet the needs of every family. Contact us today to learn more.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For more information about our cemetery, or to schedule a tour, please contact us using the form below.</p>
+        <form action="submit-form.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" name="phone">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit" class="button">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; My Cemetery 2023. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
+

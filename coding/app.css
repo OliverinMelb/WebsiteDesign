@@ -1,0 +1,166 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Welcome section styles */
+  #welcome {
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #welcome h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #welcome p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  /* Search section styles */
+  #search {
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  #search h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #search form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  #search label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  #search input[type="text"], #search input[type="email"], #search input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  #search button[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  #search button[type="submit"]:hover {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  /* Featured products section styles */
+  #featured-products {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #featured-products ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #featured-products li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+  }
+  
+  #featured-products li h3 {
+    font-size: 1.5em;
+    margin: 0 
+  }
+
